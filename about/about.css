@@ -1,0 +1,17 @@
+.contentContainer {
+  width: 40vw;
+  height: auto;
+  position: relative;
+  top: 22vh;
+  left: 10vh;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

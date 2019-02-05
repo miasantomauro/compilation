@@ -1,0 +1,103 @@
+/*  JOAN JOAN JOAN JOAN JOAN*/
+@keyframes j1 {
+  20%, 60% { transform: translate(50px, 50px); }
+  70% { transform: translate(0, 0); }
+}
+
+@keyframes j2 {
+  20%, 60% { transform: translate(0px, -60px); }
+  70% { transform: translate(0, 0); }
+}
+
+@keyframes j3 {
+  20%, 60% { transform: translate(30px, 70px); }
+  70% { transform: translate(0, 0); }
+}
+
+@keyframes j4 {
+  20%, 60% { transform: translate(-10px, -50px); }
+  70% { transform: translate(0, 0); }
+}
+
+@keyframes j5 {
+  20%, 60% { transform: translate(50px, 50px); }
+  70% { transform: translate(0, 0); }
+}
+
+@keyframes increase-size {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(100px, 20px) scale(2);
+  }
+}
+
+@keyframes letter-flip {
+  0%, 40%, 60%, 100% {
+    transform: rotateX(0);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes fall-off {
+  0%, 50% {
+    transform: translate(0, 0) rotate(0);
+  }
+  100% {
+    transform: translate(15vw, 15vw) rotate(30deg);
+  }
+}
+
+@keyframes swing {
+  0%, 50% {
+    transform: translate(0, 0) rotate(0);
+  }
+  70% {
+    transform: translate(10vw, 0) rotate(-20deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+@keyframes rise {
+  0%, 50% {
+    transform: translate(0, 0) rotate(0);
+  }
+  70% {
+    transform: translate(0, -3vw) rotate(-5deg);
+  }
+  80% {
+    transform: translate(0, -3vw) rotate(5deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+@keyframes decrease-size {
+  0%, 50% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes creep {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-10vw, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

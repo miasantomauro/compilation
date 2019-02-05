@@ -1,0 +1,65 @@
+span {
+  display: inline-block;
+  padding: 1vw 2vw;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+}
+
+input[type="text"] {
+ width: 80%;
+}
+
+input[type="button"] {
+ width: 20%;
+ height: 100px
+}
+
+.chatBox {
+  width: 50vw;
+  height: 70vh;
+  background-color: #07577A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.messageWindow {
+  width: 90%;
+  height: 75%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.userMessage, .botMessage {
+  max-width: 80%;
+  border-radius: 2vw;
+  margin: .5vw;
+}
+
+.userMessage {
+  align-self: flex-end;
+  background-color: #E3E3E3;
+}
+
+.botMessage {
+  align-self: flex-start;
+  background-color: #5B92B8;
+}
+
+.writingArea {
+  width: 90%;
+}

@@ -1,0 +1,37 @@
+.title {
+  height: auto;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 16vw;
+}
+
+.description {
+  height: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+}
+
+.container {
+  height: 150vh;
+  width: 100%;
+}
+
+.timeDisplay {
+  height: auto;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 6vw;
+  background-color: #C7EFCF;
+  position: sticky;
+  top: 0;
+}
+
+#hour8 {
+}
+
+#hour9 {
+}
+
+#hour10 {
+}

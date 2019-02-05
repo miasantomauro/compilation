@@ -1,0 +1,17 @@
+
+******************** COLORS ********************
+dark purple - #513B56
+light purple - #525174
+blue - #348AA7
+dark green - #5DD39E
+light green - #BCE784
+
+
+******************** FONTS ********************
+font-family: 'Raleway', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Caveat', cursive;

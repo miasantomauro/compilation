@@ -1,0 +1,90 @@
+
+/*
+COLORS
+blue gree #1E5C6F
+mustard #FFC857
+green #49A078
+ */
+
+ /*
+ FONTS
+ font-family: 'Gruppo', cursive;
+ font-family: 'Noto Sans', sans-serif;
+ */
+
+.flexContainer {
+  width: 20vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 40;
+}
+
+.mia {
+  font-family: 'Gruppo', cursive;
+  font-size: 15vw;
+  position: fixed;
+  top: 0;
+  left: 1vh;
+  z-index: 100;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr;
+  position: fixed;
+  bottom: 1vh;
+  left: 1vh;
+  height: 20vh;
+  z-index: 90;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 3vw;
+  line-height: 1;
+  padding:0;
+  margin:0;
+}
+
+.tab {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 12.5vw 0 0 12.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.tabLabel {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 4vw;
+  color: white;
+  position: relative;
+  left: 5vw;
+}
+
+img {
+  width: 5vw;
+  margin-left: 2vw;
+}
+
+#tabA {
+  background-color: #49A078;
+}
+
+#tabB {
+  background-color: #1E5C6F;
+}
+
+#tabC {
+  background-color: #DE4B46;
+}
+
+#tabD {
+  background-color: #FFC857;
+}
